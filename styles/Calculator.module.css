@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed); /* premium gradient */
+  min-height: 100vh;
+}
+
+/* Calculator box */
+.calculator {
+  background: white;
+  border: none;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 16px;          /* rounded corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* soft shadow */
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tab.active {
+  background: white;
+  border-bottom: 2px solid white;
+}
+
+.formGroup {
+  margin: 10px 0;
+}
+
+.formGroup label {
+  display: inline-block;
+  width: 120px;
+}
+
+.formGroup input,
+.formGroup select {
+  padding: 6px;
+  width: 200px;
+}
+
+.genderOptions input {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+.settings {
+  color: #0073aa;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  margin-right: 8px;
+}
+
+.btnGreen {
+  background: #4caf50;
+  color: white;
+}
+
+.btnGray {
+  background: #aaa;
+  color: white;
+}
+
+.genderOptions {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;  /* space between Male and Female */
+}
+.genderOptions label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* little space between circle and text */
+}
+
+.result {
+  margin-top: 20px;
+  padding: 12px;
+  background: #f0f8ff;
+  border-left: 4px solid #4caf50;
+  font-weight: bold;
+}
